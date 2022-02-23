@@ -46,12 +46,12 @@ class SchoolViewController: UIViewController {
         self.isAnimating = false
     }
     
-    //Function to throw alert.
+    //Function to show alert.
     func displayAlert(_ error: Error) {
         
         DispatchQueue.main.async{
             self.dismiss(animated: false) {
-                OperationQueue.main.addOperation {
+                DispatchQueue.main.async {
                     print("Error while fetching Schools.")
                     print(error.localizedDescription)
                     
@@ -128,6 +128,7 @@ extension SchoolViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let school = viewModel!.data(forRowAt: indexPath)
+        tableView.deselectRow(at: indexPath, animated: true)
         self.performSegue(withIdentifier: "mainToDetailSegue", sender: school)
     }
 }

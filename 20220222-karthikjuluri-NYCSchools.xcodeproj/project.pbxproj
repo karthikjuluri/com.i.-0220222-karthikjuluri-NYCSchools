@@ -25,6 +25,8 @@
 		252C4CF227C5D83700A13713 /* NetWorkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252C4CF127C5D83700A13713 /* NetWorkManagerTests.swift */; };
 		252C4CF527C5DCA800A13713 /* Screen Shot 2022-02-22 at 10.08.00 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 252C4CF427C5DCA800A13713 /* Screen Shot 2022-02-22 at 10.08.00 PM.png */; };
 		252C4CF727C5DCBF00A13713 /* Screen Shot 2022-02-22 at 10.08.35 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 252C4CF627C5DCBF00A13713 /* Screen Shot 2022-02-22 at 10.08.35 PM.png */; };
+		252C4CFC27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.57.png in Resources */ = {isa = PBXBuildFile; fileRef = 252C4CFA27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.57.png */; };
+		252C4CFD27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.48.png in Resources */ = {isa = PBXBuildFile; fileRef = 252C4CFB27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.48.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		252C4CF127C5D83700A13713 /* NetWorkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManagerTests.swift; sourceTree = "<group>"; };
 		252C4CF427C5DCA800A13713 /* Screen Shot 2022-02-22 at 10.08.00 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-02-22 at 10.08.00 PM.png"; sourceTree = "<group>"; };
 		252C4CF627C5DCBF00A13713 /* Screen Shot 2022-02-22 at 10.08.35 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-02-22 at 10.08.35 PM.png"; sourceTree = "<group>"; };
+		252C4CFA27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.57.png"; sourceTree = "<group>"; };
+		252C4CFB27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.48.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +212,8 @@
 		252C4CF327C5DC8300A13713 /* ScreenShots */ = {
 			isa = PBXGroup;
 			children = (
+				252C4CFB27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.48.png */,
+				252C4CFA27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.57.png */,
 				252C4CF627C5DCBF00A13713 /* Screen Shot 2022-02-22 at 10.08.35 PM.png */,
 				252C4CF427C5DCA800A13713 /* Screen Shot 2022-02-22 at 10.08.00 PM.png */,
 			);
@@ -320,9 +326,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				252C4CB227C5D0B300A13713 /* LaunchScreen.storyboard in Resources */,
+				252C4CFD27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.48.png in Resources */,
 				252C4CAF27C5D0B300A13713 /* Assets.xcassets in Resources */,
 				252C4CF727C5DCBF00A13713 /* Screen Shot 2022-02-22 at 10.08.35 PM.png in Resources */,
 				252C4CAD27C5D0B300A13713 /* Main.storyboard in Resources */,
+				252C4CFC27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.57.png in Resources */,
 				252C4CF527C5DCA800A13713 /* Screen Shot 2022-02-22 at 10.08.00 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

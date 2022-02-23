@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="89" width="414" height="807"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SchoolTableViewCell" rowHeight="100" id="PUs-wb-N7M" customClass="SchoolTableViewCell" customModule="SchoolApp" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SchoolTableViewCell" rowHeight="100" id="PUs-wb-N7M" customClass="SchoolTableViewCell" customModule="_0220222_karthikjuluri_NYCSchools" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PUs-wb-N7M" id="e7h-HM-oam">
@@ -39,19 +40,25 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City, Zip and Code." textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MqX-pw-tBW">
                                                     <rect key="frame" x="20" y="40" width="147" height="19.5"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                                    <color key="textColor" systemColor="systemGreenColor"/>
+                                                    <color key="textColor" systemColor="systemOrangeColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HlF-6M-d8L">
-                                                    <rect key="frame" x="328" y="64" width="66" height="30"/>
-                                                    <state key="normal" title="Navigate"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HlF-6M-d8L">
+                                                    <rect key="frame" x="344" y="54" width="50" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="50" id="2vg-Az-q8d"/>
+                                                        <constraint firstAttribute="width" constant="50" id="7mX-9E-j3P"/>
+                                                    </constraints>
+                                                    <state key="normal">
+                                                        <imageReference key="image" image="location.square.fill" catalog="system" symbolScale="large"/>
+                                                    </state>
                                                 </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="r4o-70-0Sz" secondAttribute="trailing" constant="20" id="03t-12-RU5"/>
                                                 <constraint firstItem="MqX-pw-tBW" firstAttribute="top" secondItem="r4o-70-0Sz" secondAttribute="bottom" constant="-9" id="8E2-ay-4ex"/>
                                                 <constraint firstItem="r4o-70-0Sz" firstAttribute="leading" secondItem="MqX-pw-tBW" secondAttribute="leading" id="LfX-lv-qhJ"/>
-                                                <constraint firstItem="HlF-6M-d8L" firstAttribute="top" secondItem="r4o-70-0Sz" secondAttribute="bottom" constant="15" id="MvJ-BS-ehU"/>
+                                                <constraint firstItem="HlF-6M-d8L" firstAttribute="top" secondItem="r4o-70-0Sz" secondAttribute="bottom" constant="5" id="MvJ-BS-ehU"/>
                                                 <constraint firstItem="r4o-70-0Sz" firstAttribute="top" secondItem="e7h-HM-oam" secondAttribute="top" id="a3l-I5-3pL"/>
                                                 <constraint firstItem="r4o-70-0Sz" firstAttribute="trailing" secondItem="HlF-6M-d8L" secondAttribute="trailing" id="fio-36-LDe"/>
                                                 <constraint firstItem="r4o-70-0Sz" firstAttribute="leading" secondItem="e7h-HM-oam" secondAttribute="leading" constant="20" id="vFk-5V-pUL"/>
@@ -127,7 +134,7 @@
                                                     <constraint firstAttribute="height" constant="49" id="GXb-lO-iX4"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" systemColor="systemOrangeColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDo-Oi-yr3">
@@ -136,7 +143,7 @@
                                                     <constraint firstAttribute="height" constant="49" id="6hc-yt-BiQ"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" systemColor="systemOrangeColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1z4-G4-oCW">
@@ -145,7 +152,7 @@
                                                     <constraint firstAttribute="height" constant="49" id="ldW-Tw-3xc"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" systemColor="systemOrangeColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAT Score 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vtb-gk-Z6Q">
@@ -296,8 +303,9 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="location.square.fill" catalog="system" width="128" height="114"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
