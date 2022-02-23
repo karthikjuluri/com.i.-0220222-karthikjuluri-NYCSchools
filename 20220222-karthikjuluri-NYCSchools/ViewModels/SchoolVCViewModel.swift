@@ -78,7 +78,7 @@ class SchoolVCViewModel: NSObject {
         self.schools.removeAll()
         
         for schoolSATSchore in satScrores{
-            if let dbn = schoolSATSchore.dbn{
+            if let dbn = schoolSATSchore.dbn {
                 let matchedSchool = previous.first(where: { (nycHighSchool) -> Bool in
                     return nycHighSchool.dbn == dbn
                 })
