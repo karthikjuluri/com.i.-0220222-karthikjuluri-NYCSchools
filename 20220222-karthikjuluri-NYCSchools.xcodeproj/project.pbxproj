@@ -23,10 +23,6 @@
 		252C4CEB27C5D5CA00A13713 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252C4CEA27C5D5CA00A13713 /* NetworkManager.swift */; };
 		252C4CEF27C5D67200A13713 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 252C4CEE27C5D67200A13713 /* Utilities.m */; };
 		252C4CF227C5D83700A13713 /* NetWorkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252C4CF127C5D83700A13713 /* NetWorkManagerTests.swift */; };
-		252C4CF527C5DCA800A13713 /* Screen Shot 2022-02-22 at 10.08.00 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 252C4CF427C5DCA800A13713 /* Screen Shot 2022-02-22 at 10.08.00 PM.png */; };
-		252C4CF727C5DCBF00A13713 /* Screen Shot 2022-02-22 at 10.08.35 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 252C4CF627C5DCBF00A13713 /* Screen Shot 2022-02-22 at 10.08.35 PM.png */; };
-		252C4CFC27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.57.png in Resources */ = {isa = PBXBuildFile; fileRef = 252C4CFA27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.57.png */; };
-		252C4CFD27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.48.png in Resources */ = {isa = PBXBuildFile; fileRef = 252C4CFB27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.48.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,10 +65,6 @@
 		252C4CED27C5D67200A13713 /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		252C4CEE27C5D67200A13713 /* Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 		252C4CF127C5D83700A13713 /* NetWorkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManagerTests.swift; sourceTree = "<group>"; };
-		252C4CF427C5DCA800A13713 /* Screen Shot 2022-02-22 at 10.08.00 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-02-22 at 10.08.00 PM.png"; sourceTree = "<group>"; };
-		252C4CF627C5DCBF00A13713 /* Screen Shot 2022-02-22 at 10.08.35 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-02-22 at 10.08.35 PM.png"; sourceTree = "<group>"; };
-		252C4CFA27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.57.png"; sourceTree = "<group>"; };
-		252C4CFB27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.48.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +115,7 @@
 		252C4CA427C5D0B300A13713 /* 20220222-karthikjuluri-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
-				252C4CF327C5DC8300A13713 /* ScreenShots */,
+				256B739D27C6776900D7B0BB /* ScreenShots */,
 				252C4CF027C5D67700A13713 /* Utilities-Objc */,
 				252C4CE927C5D5AE00A13713 /* NetWorkManager */,
 				252C4CE627C5D56A00A13713 /* Models */,
@@ -209,13 +201,9 @@
 			path = "Utilities-Objc";
 			sourceTree = "<group>";
 		};
-		252C4CF327C5DC8300A13713 /* ScreenShots */ = {
+		256B739D27C6776900D7B0BB /* ScreenShots */ = {
 			isa = PBXGroup;
 			children = (
-				252C4CFB27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.48.png */,
-				252C4CFA27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.57.png */,
-				252C4CF627C5DCBF00A13713 /* Screen Shot 2022-02-22 at 10.08.35 PM.png */,
-				252C4CF427C5DCA800A13713 /* Screen Shot 2022-02-22 at 10.08.00 PM.png */,
 			);
 			path = ScreenShots;
 			sourceTree = "<group>";
@@ -326,12 +314,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				252C4CB227C5D0B300A13713 /* LaunchScreen.storyboard in Resources */,
-				252C4CFD27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.48.png in Resources */,
 				252C4CAF27C5D0B300A13713 /* Assets.xcassets in Resources */,
-				252C4CF727C5DCBF00A13713 /* Screen Shot 2022-02-22 at 10.08.35 PM.png in Resources */,
 				252C4CAD27C5D0B300A13713 /* Main.storyboard in Resources */,
-				252C4CFC27C673DD00A13713 /* Simulator Screen Shot - iPhone 12 mini - 2022-02-23 at 08.52.57.png in Resources */,
-				252C4CF527C5DCA800A13713 /* Screen Shot 2022-02-22 at 10.08.00 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +535,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -558,7 +543,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.i.-0220222-karthikjuluri-NYCSchools";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.0220222-karthikjuluri-NYCSchools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "20220222-karthikjuluri-NYCSchools/20220222-karthikjuluri-NYCSchools-Bridging-Header.h";
@@ -582,6 +567,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -589,7 +575,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.i.-0220222-karthikjuluri-NYCSchools";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.0220222-karthikjuluri-NYCSchools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "20220222-karthikjuluri-NYCSchools/20220222-karthikjuluri-NYCSchools-Bridging-Header.h";
