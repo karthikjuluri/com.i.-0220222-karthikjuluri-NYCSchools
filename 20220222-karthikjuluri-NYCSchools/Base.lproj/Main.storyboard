@@ -28,40 +28,38 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="School Name" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r4o-70-0Sz">
-                                                    <rect key="frame" x="20" y="0.0" width="374" height="49"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="49" id="jGR-PA-Xej"/>
-                                                    </constraints>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="School Name" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r4o-70-0Sz">
+                                                    <rect key="frame" x="20" y="10" width="374" height="24"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City, Zip and Code." textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MqX-pw-tBW">
-                                                    <rect key="frame" x="20" y="40" width="147" height="19.5"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                                    <color key="textColor" systemColor="systemOrangeColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HlF-6M-d8L">
-                                                    <rect key="frame" x="344" y="54" width="50" height="50"/>
+                                                    <rect key="frame" x="344" y="39" width="50" height="40"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="50" id="2vg-Az-q8d"/>
-                                                        <constraint firstAttribute="width" constant="50" id="7mX-9E-j3P"/>
+                                                        <constraint firstAttribute="width" constant="50" id="kgo-9M-geV"/>
+                                                        <constraint firstAttribute="height" constant="40" id="nRI-Ch-4LD"/>
                                                     </constraints>
                                                     <state key="normal">
                                                         <imageReference key="image" image="location.square.fill" catalog="system" symbolScale="large"/>
                                                     </state>
                                                 </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City, Zip and Code." textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MqX-pw-tBW">
+                                                    <rect key="frame" x="20" y="42" width="147" height="19.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <color key="textColor" systemColor="systemOrangeColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="r4o-70-0Sz" secondAttribute="trailing" constant="20" id="03t-12-RU5"/>
-                                                <constraint firstItem="MqX-pw-tBW" firstAttribute="top" secondItem="r4o-70-0Sz" secondAttribute="bottom" constant="-9" id="8E2-ay-4ex"/>
-                                                <constraint firstItem="r4o-70-0Sz" firstAttribute="leading" secondItem="MqX-pw-tBW" secondAttribute="leading" id="LfX-lv-qhJ"/>
-                                                <constraint firstItem="HlF-6M-d8L" firstAttribute="top" secondItem="r4o-70-0Sz" secondAttribute="bottom" constant="5" id="MvJ-BS-ehU"/>
-                                                <constraint firstItem="r4o-70-0Sz" firstAttribute="top" secondItem="e7h-HM-oam" secondAttribute="top" id="a3l-I5-3pL"/>
-                                                <constraint firstItem="r4o-70-0Sz" firstAttribute="trailing" secondItem="HlF-6M-d8L" secondAttribute="trailing" id="fio-36-LDe"/>
-                                                <constraint firstItem="r4o-70-0Sz" firstAttribute="leading" secondItem="e7h-HM-oam" secondAttribute="leading" constant="20" id="vFk-5V-pUL"/>
+                                                <constraint firstAttribute="trailing" secondItem="r4o-70-0Sz" secondAttribute="trailing" constant="20" symbolic="YES" id="1Zc-Un-4H9"/>
+                                                <constraint firstItem="HlF-6M-d8L" firstAttribute="bottom" secondItem="e7h-HM-oam" secondAttribute="bottomMargin" constant="-10" id="A8L-30-tdC"/>
+                                                <constraint firstItem="MqX-pw-tBW" firstAttribute="top" secondItem="r4o-70-0Sz" secondAttribute="bottom" constant="8" id="LGT-SY-4SS"/>
+                                                <constraint firstItem="MqX-pw-tBW" firstAttribute="leading" secondItem="e7h-HM-oam" secondAttribute="leadingMargin" id="LX6-Be-co9"/>
+                                                <constraint firstItem="HlF-6M-d8L" firstAttribute="trailing" secondItem="e7h-HM-oam" secondAttribute="trailingMargin" id="dCI-uV-kpA"/>
+                                                <constraint firstItem="r4o-70-0Sz" firstAttribute="top" secondItem="e7h-HM-oam" secondAttribute="top" constant="10" id="fa3-KV-rIh"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="MqX-pw-tBW" secondAttribute="bottom" constant="27.5" id="qAC-ae-HBb"/>
+                                                <constraint firstItem="r4o-70-0Sz" firstAttribute="leading" secondItem="e7h-HM-oam" secondAttribute="leading" constant="20" symbolic="YES" id="z0M-rA-FiC"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -94,7 +92,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zVi-jU-AUm" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="886" y="119"/>
+            <point key="canvasLocation" x="885.50724637681162" y="118.52678571428571"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="b7C-Za-7mR">

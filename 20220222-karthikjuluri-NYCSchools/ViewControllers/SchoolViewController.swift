@@ -20,13 +20,18 @@ class SchoolViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        /// tableview cell Height making it automatic
+        self.tableView.rowHeight = UITableView.automaticDimension
+        self.tableView.estimatedRowHeight = 100.0
+        
         viewModel = SchoolVCViewModel(self)
         
         self.title = "NYC Schools"
-        self.navigationController?.navigationBar.prefersLargeTitles = true
         
         ///for first time.
         self.startAnimation()
+        
+       
     }
     
     ///Animate view while fetching results.
@@ -121,6 +126,13 @@ extension SchoolViewController: UITableViewDataSource {
         cell.navigateButton.addTarget(self, action: #selector(self.navigateToAddress(_:)), for: .touchUpInside)
         
         return cell
+    }
+    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableView.automaticDimension
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableView.automaticDimension
     }
 }
 
