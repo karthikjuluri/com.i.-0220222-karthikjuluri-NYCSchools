@@ -19,6 +19,7 @@ class SchoolVCViewModel: NSObject {
     
     weak var delegate: SchoolListViewControllerDelegate?
     
+    /// injecting dependency
     init(_ delegate: SchoolListViewControllerDelegate) {
         super.init()
         
@@ -34,6 +35,7 @@ class SchoolVCViewModel: NSObject {
         return schools[indexPath.row]
     }
     
+    /// fetching all schools list
     func fetchSchools(){
         networkManager.fetchData(urlString: APIURLConstants.fetchSchools) { (resultData, fetchError) in
             
@@ -77,7 +79,7 @@ class SchoolVCViewModel: NSObject {
         
         for schoolSATSchore in satScrores{
             if let dbn = schoolSATSchore.dbn{
-                var matchedSchool = previous.first(where: { (nycHighSchool) -> Bool in
+                let matchedSchool = previous.first(where: { (nycHighSchool) -> Bool in
                     return nycHighSchool.dbn == dbn
                 })
                 

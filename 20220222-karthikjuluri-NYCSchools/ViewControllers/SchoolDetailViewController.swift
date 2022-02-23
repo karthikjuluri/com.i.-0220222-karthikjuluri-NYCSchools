@@ -58,7 +58,7 @@ class SchoolDetailViewController: UIViewController {
         
         self.setLocation(school.location!)
     }
-    
+    /// setting location on MAP
     func setLocation(_ location: String) {
         
         let schoolAnnotation = MKPointAnnotation()

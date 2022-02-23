@@ -14,10 +14,12 @@ struct APIURLConstants {
 
 class NetworkManager {
    
+    /// creating shared instace
     static let shared = NetworkManager()
     private init() {
         
     }
+    /// simple API 
     func fetchData(urlString: String, completionHandler: @escaping (Any?, Error?) -> ()) -> (){
         
         guard let urlPath = urlString.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed) else { return }

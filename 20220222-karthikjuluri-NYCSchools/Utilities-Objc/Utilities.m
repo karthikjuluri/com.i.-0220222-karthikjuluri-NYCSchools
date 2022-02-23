@@ -8,6 +8,7 @@
 #import "Utilities.h"
 
 @implementation Utilities
+/// displaying alert 
 + (UIAlertController *)getAlertController:(NSString *)message{
     
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@""

@@ -12,7 +12,7 @@ class SchoolViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    var alertController: UIAlertController? //To display "Fetching"
+    var alertController: UIAlertController? ///To display "Fetching"
     var isAnimating = false
     
     var viewModel: SchoolVCViewModel?
@@ -25,16 +25,16 @@ class SchoolViewController: UIViewController {
         self.title = "NYC Schools"
         self.navigationController?.navigationBar.prefersLargeTitles = true
         
-        //for first time.
+        ///for first time.
         self.startAnimation()
     }
     
-    //Animate view while fetching results.
+    ///Animate view while fetching results.
     func startAnimation(){
         if (self.isAnimating == false){
             self.isAnimating = true
             
-            //Utilties is the Objective - C class. Which creates a Generic Alert for now.
+            ///Utilties is the Objective - C class. Which creates a Generic Alert for now.
             self.alertController = Utilities.getAlertController("Fetching Schools…")
             present(self.alertController!, animated: true, completion: nil)
         }
@@ -46,7 +46,7 @@ class SchoolViewController: UIViewController {
         self.isAnimating = false
     }
     
-    //Function to show alert.
+    ///Function to show alert.
     func displayAlert(_ error: Error) {
         
         DispatchQueue.main.async{
@@ -69,12 +69,12 @@ class SchoolViewController: UIViewController {
         
         if let school = sender as? SchoolModel {
             let detailsView = segue.destination as? SchoolDetailViewController
-            detailsView?.view.tag = 0   //Setting the tag as example so that view loads it hierarchy.
+            detailsView?.view.tag = 0   ///Setting the tag as example so that view loads it hierarchy.
             detailsView?.loadDetailView(school)
         }
     }
     
-    //Navigate to the school address, by clicking "Navigate" button.
+    ///Navigate to the school address, by clicking "Navigate" button.
     @objc func navigateToAddress(_ sender: UIButton){
         
         let indexPath = IndexPath.init(row: sender.tag, section: 0)
